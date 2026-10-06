@@ -50,10 +50,10 @@ function App() {
       </p>
 
       <p>
-        My journey in AI started with Machine Learning and has grown
-        into an interest in Generative AI, RAG, and Agentic AI.
-        I enjoy turning ideas into practical projects while continuously
-        exploring new technologies.
+      My journey in AI started with Machine Learning and has expanded
+      into building applications using Generative AI, RAG, and Agentic AI.
+      I enjoy turning ideas into practical projects while continuously
+      exploring new technologies.
       </p>
 
       <div className="about-highlights">
@@ -77,7 +77,7 @@ function App() {
         <div className="highlight-card">
           <span>🚀</span>
           <div>
-            <h3>Currently Building</h3>
+            <h3>Building</h3>
             <p>AI-powered applications & intelligent systems</p>
           </div>
         </div>
@@ -94,18 +94,23 @@ function App() {
   <div className="skills-container">
 
     <div className="skill-card">
-      <h3>💻 Programming</h3>
-      <p>Python, SQL</p>
+      <h3>💻 Programming & Data</h3>
+      <p>Python, SQL, Pandas, NumPy</p>
     </div>
 
     <div className="skill-card">
       <h3>🤖 Machine Learning</h3>
-      <p>Scikit-learn, Pandas, NumPy</p>
+      <p>Scikit-learn, Regression, Classification, Model Evaluation</p>
     </div>
 
     <div className="skill-card">
-      <h3>🧠 Artificial Intelligence</h3>
-      <p>Generative AI, RAG, Agentic AI</p>
+      <h3>🧠 Deep Learning</h3>
+      <p>CNN, RNN, Neural Networks</p>
+    </div>
+
+    <div className="skill-card">
+      <h3>✨ Generative AI</h3>
+      <p>LLMs, RAG, Agentic AI, LangChain, Ollama</p>
     </div>
 
     <div className="skill-card">
@@ -114,13 +119,8 @@ function App() {
     </div>
 
     <div className="skill-card">
-      <h3>🛠️ Tools</h3>
-      <p>Git, GitHub, Jupyter Notebook, VS Code, Google Colab</p>
-    </div>
-
-    <div className="skill-card">
-      <h3>📊 Data Visualization</h3>
-      <p>Matplotlib, Power BI</p>
+      <h3>🛠️ Tools & Development</h3>
+      <p>Git, GitHub, Jupyter Notebook, VS Code, Google Colab, Streamlit</p>
     </div>
 
   </div>
