@@ -297,39 +297,49 @@ function App() {
     </div>
 
     {/* Project 4 */}
-    <div className="project-card">
-      <div className="project-number">04</div>
+  <div className="project-card">
+  <div className="project-number">04</div>
 
-      <h3>Agentic AI System</h3>
+  <h3>Agentic AI System</h3>
 
-      <p>
-        Currently developing an AI agent capable of handling tasks
-        that require multiple steps rather than simply generating
-        a direct response.
-      </p>
+  <p>
+    Built a local Agentic AI system capable of understanding tasks,
+    planning multi-step workflows, selecting appropriate tools,
+    and generating responses based on the results.
+  </p>
 
-      <p>
-        The system is designed to understand a user's task, break it
-        into smaller steps, determine which tools or actions are needed,
-        and retrieve relevant information during the process.
-      </p>
+  <p>
+    The system uses a local LLM with Ollama and LangChain to combine
+    reasoning, tool usage, memory, and Retrieval-Augmented Generation.
+    It includes tools for calculations, text analysis, and document
+    question answering.
+  </p>
 
-      <p>
-        The goal is to create an intelligent workflow where the agent
-        can reason about the task, use available tools, and generate
-        a final response based on the results.
-      </p>
+  <p>
+    The agent can handle multi-step tasks by breaking them into smaller
+    actions, executing the required tools, and combining the results
+    into a final response. RAG is used to retrieve relevant information
+    from documents when required.
+  </p>
 
-      <div className="tech-stack">
-        <span>Python</span>
-        <span>LLMs</span>
-        <span>AI Agents</span>
-        <span>Tool Calling</span>
-        <span>RAG</span>
-      </div>
+  <div className="tech-stack">
+    <span>Python</span>
+    <span>LangChain</span>
+    <span>Ollama</span>
+    <span>LLMs</span>
+    <span>AI Agents</span>
+    <span>RAG</span>
+    <span>Streamlit</span>
+  </div>
 
-      <button>View Project →</button>
-    </div>
+  <a
+  href="https://github.com/Sahanarao30/agentic-ai-system"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>View Project →</button>
+</a>
+</div>
 
   </div>
 </section>
