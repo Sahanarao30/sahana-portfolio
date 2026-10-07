@@ -151,9 +151,9 @@ function App() {
         </p>
 
         <p>
-          Completed an AI Engineer course covering Machine Learning,
-          Deep Learning, Artificial Intelligence, and practical
-          AI development concepts.
+        Completed an AI Engineer course covering Machine Learning, 
+        Deep Learning, Artificial Intelligence, and practical model development 
+        through hands-on projects.
         </p>
       </div>
     </div>
