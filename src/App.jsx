@@ -343,16 +343,18 @@ function App() {
 
   </div>
 </section>
-            {/* Resume Section */}
-            <section id="resume">
-        <h2>Resume</h2>
-
-        <p>
-        Explore my resume to learn more about my education, technical skills, projects, and experience.
-        </p>
-
-        <button>View Resume</button>
-      </section>
+           {/* Resume Section */} <section id="resume"> 
+            <h2>Resume</h2> 
+            <p> 
+              Explore my resume to learn more about my education, technical skills, 
+              projects, and experience. 
+              </p> 
+            <a href="/Sahana-Rao-Resume.pdf"
+               target="_blank" rel="noopener noreferrer" 
+               >
+             <button>View Resume</button>
+              </a> 
+              </section>
 
       {/* Contact Section */}
       <section id="contact">
