@@ -178,8 +178,8 @@ function App() {
 
   </div>
 </section>
-      {/* Projects Section */}
-      <section id="projects">
+{/* Projects Section */}
+<section id="projects">
   <div className="projects-heading">
     <p className="section-label">MY WORK</p>
 
@@ -187,7 +187,7 @@ function App() {
 
     <p>
       A selection of Machine Learning and AI projects focused on
-      solving practical problems and exploring intelligent systems.
+      solving practical problems and building intelligent systems.
     </p>
   </div>
 
@@ -196,6 +196,83 @@ function App() {
     {/* Project 1 */}
     <div className="project-card">
       <div className="project-number">01</div>
+
+      <h3>Agentic AI System</h3>
+
+      <p>
+        Built a local Agentic AI system that can understand user tasks,
+        select appropriate tools, execute actions, and combine tool
+        results to generate a final response.
+      </p>
+
+      <p>
+        The system uses Ollama and LangChain to work with a local LLM
+        and includes tools for mathematical calculations, text analysis,
+        and document-based question answering.
+      </p>
+
+      <p>
+        Integrated Retrieval-Augmented Generation to retrieve relevant
+        information from a Distributed Systems PDF when required,
+        allowing the agent to handle multi-step tasks involving both
+        calculations and document-based questions.
+      </p>
+
+      <div className="tech-stack">
+        <span>Python</span>
+        <span>LangChain</span>
+        <span>Ollama</span>
+        <span>LLMs</span>
+        <span>AI Agents</span>
+        <span>RAG</span>
+      </div>
+
+      <a
+        href="https://github.com/Sahanarao30/agentic-ai-system"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button>View Project →</button>
+      </a>
+    </div>
+
+    {/* Project 2 */}
+    <div className="project-card">
+      <div className="project-number">02</div>
+
+      <h3>RAG Question Answering System</h3>
+
+      <p>
+        Built a Retrieval-Augmented Generation system that allows users
+        to ask questions about information contained in PDF documents.
+      </p>
+
+      <p>
+        The system processes the document into smaller overlapping
+        chunks, generates vector embeddings using a sentence-transformer
+        model, and performs similarity search to retrieve relevant
+        context.
+      </p>
+
+      <p>
+        The retrieved information is then provided to a local language
+        model to generate context-aware answers based on the document
+        content.
+      </p>
+
+      <div className="tech-stack">
+        <span>Python</span>
+        <span>RAG</span>
+        <span>Embeddings</span>
+        <span>Vector Search</span>
+        <span>LLM</span>
+        <span>Sentence Transformers</span>
+      </div>
+    </div>
+
+    {/* Project 3 */}
+    <div className="project-card">
+      <div className="project-number">03</div>
 
       <h3>Sales Effectiveness Prediction</h3>
 
@@ -206,15 +283,15 @@ function App() {
       </p>
 
       <p>
-        The project involved data preprocessing, feature engineering,
-        categorical encoding, exploratory analysis, and model evaluation.
-        Logistic Regression, Decision Tree, Random Forest, and SVM models
-        were compared to identify an effective approach.
+        The project involved data preprocessing, exploratory data
+        analysis, feature engineering, categorical encoding, and
+        evaluation of multiple classification algorithms.
       </p>
 
       <p>
-        Logistic Regression achieved 73.65% test accuracy with 60.24%
-        recall for High Potential leads.
+        Logistic Regression, Decision Tree, Random Forest, and SVM
+        models were compared to identify an effective classification
+        approach.
       </p>
 
       <div className="tech-stack">
@@ -225,30 +302,30 @@ function App() {
         <span>Random Forest</span>
         <span>SVM</span>
       </div>
-
-      <button>View Project →</button>
     </div>
 
-    {/* Project 2 */}
+  {/* Project 4 */}
     <div className="project-card">
-      <div className="project-number">02</div>
+      <div className="project-number">04</div>
 
-      <h3>Flight Fare Prediction</h3>
+      <h3>Cell Phone Price Prediction</h3>
 
       <p>
-        Developed a machine learning regression system to predict flight
-        fares using historical flight and travel-related information.
+        Developed a machine learning classification model to predict
+        the price range of mobile phones based on their technical
+        specifications.
       </p>
 
       <p>
-        The project involved data preprocessing, exploratory data analysis,
-        feature preparation, model training, and evaluation to understand
-        how different flight characteristics influence ticket prices.
+        The project involved data preprocessing, exploratory analysis,
+        model training, evaluation, and comparison of classification
+        approaches to identify the most effective model.
       </p>
 
       <p>
-        The model learns patterns from historical data and uses relevant
-        flight features to estimate the expected fare.
+        Logistic Regression achieved 96.5% test accuracy, with RAM
+        identified as one of the most influential features for
+        predicting the phone price range.
       </p>
 
       <div className="tech-stack">
@@ -256,90 +333,44 @@ function App() {
         <span>Pandas</span>
         <span>NumPy</span>
         <span>Scikit-learn</span>
-        <span>Matplotlib</span>
+        <span>Classification</span>
         <span>Machine Learning</span>
       </div>
-
-      <button>View Project →</button>
     </div>
 
-    {/* Project 3 */}
+
+    {/* Project 5 */}
     <div className="project-card">
-      <div className="project-number">03</div>
+      <div className="project-number">05</div>
 
-      <h3>RAG Question Answering System</h3>
+      <h3>Heart Disease Prediction</h3>
 
       <p>
-        Built a Retrieval-Augmented Generation system that allows users
-        to ask questions about information contained in documents.
+        Developed a machine learning classification model to predict
+        the presence of heart disease using patient-related features.
       </p>
 
       <p>
-        The system processes documents into smaller chunks, converts
-        them into embeddings, and uses similarity search to retrieve
-        the most relevant information for a user's question.
+        The project involved data preprocessing, exploratory analysis,
+        model training, cross-validation, and evaluation using
+        classification metrics.
       </p>
 
       <p>
-        The retrieved context is then provided to an LLM to generate
-        a context-aware answer based on the available document content.
+        Logistic Regression achieved 88.9% test accuracy, with the
+        evaluation showing strong performance in identifying positive
+        cases.
       </p>
 
       <div className="tech-stack">
         <span>Python</span>
-        <span>Embeddings</span>
-        <span>Vector Search</span>
-        <span>LLM</span>
-        <span>RAG</span>
+        <span>Pandas</span>
+        <span>Scikit-learn</span>
+        <span>Logistic Regression</span>
+        <span>SVM</span>
+        <span>Classification</span>
       </div>
-
-      <button>View Project →</button>
     </div>
-
-    {/* Project 4 */}
-  <div className="project-card">
-  <div className="project-number">04</div>
-
-  <h3>Agentic AI System</h3>
-
-  <p>
-    Built a local Agentic AI system capable of understanding tasks,
-    planning multi-step workflows, selecting appropriate tools,
-    and generating responses based on the results.
-  </p>
-
-  <p>
-    The system uses a local LLM with Ollama and LangChain to combine
-    reasoning, tool usage, memory, and Retrieval-Augmented Generation.
-    It includes tools for calculations, text analysis, and document
-    question answering.
-  </p>
-
-  <p>
-    The agent can handle multi-step tasks by breaking them into smaller
-    actions, executing the required tools, and combining the results
-    into a final response. RAG is used to retrieve relevant information
-    from documents when required.
-  </p>
-
-  <div className="tech-stack">
-    <span>Python</span>
-    <span>LangChain</span>
-    <span>Ollama</span>
-    <span>LLMs</span>
-    <span>AI Agents</span>
-    <span>RAG</span>
-    <span>Streamlit</span>
-  </div>
-
-  <a
-  href="https://github.com/Sahanarao30/agentic-ai-system"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <button>View Project →</button>
-</a>
-</div>
 
   </div>
 </section>
