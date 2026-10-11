@@ -28,14 +28,25 @@ function App() {
     Generative AI, RAG, and Agentic AI.
   </p>
 
-  <div className="hero-buttons">
+ 
+<div className="hero-buttons">
+  <a href="#projects">
     <button>View My Projects</button>
+  </a>
+
+  <a
+    href="https://github.com/Sahanarao30"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     <button className="secondary-button">GitHub</button>
-  </div>
+  </a>
+</div>
 </section>
 
-      {/* About Section */}
-      <section id="about">
+      
+{/* About Section */}
+<section id="about">
   <div className="about-content">
 
     <div className="about-heading">
@@ -45,15 +56,25 @@ function App() {
 
     <div className="about-text">
       <p className="about-intro">
-        I'm an Information Science Engineering graduate passionate
-        about building intelligent systems that solve real-world problems.
+        I'm an Information Science Engineering graduate
+        focused on building practical AI and Machine Learning
+        solutions to solve real-world problems.
       </p>
 
       <p>
-      My journey in AI started with Machine Learning and has expanded
-      into building applications using Generative AI, RAG, and Agentic AI.
-      I enjoy turning ideas into practical projects while continuously
-      exploring new technologies.
+        I have hands-on experience developing machine learning
+        projects, along with a growing focus on Generative AI,
+        Retrieval-Augmented Generation (RAG), and Agentic AI.
+        Through my projects, I explore how intelligent systems
+        can process information, answer questions, and use tools
+        to perform tasks.
+      </p>
+
+      <p>
+        I'm continuously strengthening my skills in Python,
+        data analysis, machine learning, and LLM-based
+        applications while building projects that demonstrate
+        my technical knowledge and problem-solving abilities.
       </p>
 
       <div className="about-highlights">
@@ -62,65 +83,88 @@ function App() {
           <span>🎓</span>
           <div>
             <h3>Education</h3>
-            <p> Information Science Engineering</p>
+            <p>Information Science Engineering</p>
           </div>
         </div>
 
         <div className="highlight-card">
           <span>🤖</span>
           <div>
-            <h3>Focus</h3>
-            <p>ML · GenAI · RAG · Agentic AI</p>
+            <h3>Core Interests</h3>
+            <p>Machine Learning · GenAI · RAG</p>
           </div>
         </div>
 
         <div className="highlight-card">
-          <span>🚀</span>
-          <div>
-            <h3>Building</h3>
-            <p>AI-powered applications & intelligent systems</p>
-          </div>
-        </div>
-
-      </div>
+       <span>🧠</span>
+       <div>
+      <h3>AI & Innovation</h3>
+      <p>Machine Learning · Generative AI · Intelligent Systems</p>
     </div>
+  </div>
+  </div>
+    
+  </div>
 
   </div>
 </section>
-      {/* Skills Section */}
-      <section id="skills">
-  <h2>Skills</h2>
+
+
+{/* Skills Section */}
+<section id="skills">
+  <div className="skills-heading">
+    <p className="section-label">MY EXPERTISE</p>
+    <h2>Technical Skills</h2>
+    <p>
+      Technologies and tools I have learned and applied
+      through my AI and Machine Learning projects.
+    </p>
+  </div>
 
   <div className="skills-container">
 
     <div className="skill-card">
       <h3>💻 Programming & Data</h3>
-      <p>Python, SQL, Pandas, NumPy</p>
+      <div className="tech-stack">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Statistics</span>
+      </div>
     </div>
 
     <div className="skill-card">
       <h3>🤖 Machine Learning</h3>
-      <p>Scikit-learn, Regression, Classification, Model Evaluation</p>
+      <div className="tech-stack">
+        <span>Scikit-learn</span>
+        <span>Classification</span>
+        <span>Regression</span>
+        <span>Model Evaluation</span>
+        <span>Feature Engineering</span>
+      </div>
     </div>
 
     <div className="skill-card">
-      <h3>🧠 Deep Learning</h3>
-      <p>CNN, RNN, Neural Networks</p>
+      <h3>🧠 Generative AI</h3>
+      <div className="tech-stack">
+        <span>LLMs</span>
+        <span>RAG</span>
+        <span>Embeddings</span>
+        <span>Vector Search</span>
+        <span>LangChain</span>
+        <span>Ollama</span>
+      </div>
     </div>
 
     <div className="skill-card">
-      <h3>✨ Generative AI</h3>
-      <p>LLMs, RAG, Agentic AI, LangChain, Ollama</p>
-    </div>
-
-    <div className="skill-card">
-      <h3>🗄️ Databases</h3>
-      <p>MySQL, MongoDB</p>
-    </div>
-
-    <div className="skill-card">
-      <h3>🛠️ Tools & Development</h3>
-      <p>Git, GitHub, Jupyter Notebook, VS Code, Google Colab, Streamlit</p>
+      <h3>📊 Data Analysis</h3>
+      <div className="tech-stack">
+        <span>Data Cleaning</span>
+        <span>Exploratory Data Analysis</span>
+        <span>Data Visualization</span>
+        <span>Model Performance Metrics</span>
+      </div>
     </div>
 
   </div>
@@ -389,18 +433,33 @@ function App() {
 
       {/* Contact Section */}
       <section id="contact">
-        <h2>Contact</h2>
+        <h2>9113845877</h2>
 
-        <p>
-          I'm open to opportunities in Artificial Intelligence
-          and Machine Learning.
-        </p>
+<p>
+  Email: <a href="mailto:sahanakr18@gmail.com">
+    sahanakr18@gmail.com
+  </a>
+</p>
 
-        <p>Email: your-email@example.com</p>
+<p>
+  GitHub: <a
+    href="https://github.com/Sahanarao30"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    github.com/Sahanarao30
+  </a>
+</p>
 
-        <p>GitHub: github.com/yourusername</p>
-
-        <p>LinkedIn: linkedin.com/in/yourusername</p>
+<p>
+  LinkedIn: <a
+    href="https://linkedin.com/in/sahana-rao-2567a3313"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    linkedin.com/in/sahana-rao-2567a3313
+  </a>
+</p>
       </section>
     </div>
   )
