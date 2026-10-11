@@ -418,49 +418,66 @@ function App() {
 
   </div>
 </section>
-           {/* Resume Section */} <section id="resume"> 
-            <h2>Resume</h2> 
-            <p> 
-              Explore my resume to learn more about my education, technical skills, 
-              projects, and experience. 
-              </p> 
-            <a href="/Sahana-Rao-Resume.pdf"
-               target="_blank" rel="noopener noreferrer" 
-               >
-             <button>View Resume</button>
-              </a> 
-              </section>
+          
+{/* Resume Section */}
+<section id="resume">
+  <h2>Resume</h2>
+  <p>
+    Explore my resume to learn more about my education,
+    technical skills, projects, and experience.
+  </p>
 
-      {/* Contact Section */}
-      <section id="contact">
-        <h2>9113845877</h2>
-
-<p>
-  Email: <a href="mailto:sahanakr18@gmail.com">
-    sahanakr18@gmail.com
-  </a>
-</p>
-
-<p>
-  GitHub: <a
-    href="https://github.com/Sahanarao30"
+  <a
+    href="/Sahana-Rao-Resume.pdf"
     target="_blank"
     rel="noopener noreferrer"
   >
-    github.com/Sahanarao30
+    <button>View Resume</button>
   </a>
-</p>
+</section>
 
-<p>
-  LinkedIn: <a
-    href="https://linkedin.com/in/sahana-rao-2567a3313"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    linkedin.com/in/sahana-rao-2567a3313
-  </a>
-</p>
-      </section>
+{/* Contact Section */}
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    I'm open to opportunities in Artificial Intelligence
+    and Machine Learning.
+  </p>
+
+  <p>
+    <strong>Phone:</strong>{" "}
+    <a href="tel:9113845877">9113845877</a>
+  </p>
+
+  <p>
+    <strong>Email:</strong>{" "}
+    <a href="mailto:sahanakr18@gmail.com">
+      sahanakr18@gmail.com
+    </a>
+  </p>
+
+  <p>
+    <strong>GitHub:</strong>{" "}
+    <a
+      href="https://github.com/Sahanarao30"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      github.com/Sahanarao30
+    </a>
+  </p>
+
+  <p>
+    <strong>LinkedIn:</strong>{" "}
+    <a
+      href="https://linkedin.com/in/sahana-rao-2567a3313"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      linkedin.com/in/sahana-rao-2567a3313
+    </a>
+  </p>
+</section>
     </div>
   )
 }
