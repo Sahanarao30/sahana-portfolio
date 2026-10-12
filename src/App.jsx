@@ -1,3 +1,5 @@
+import './App.css'
+
 function App() {
   return (
     <div>
@@ -154,16 +156,6 @@ function App() {
         <span>Vector Search</span>
         <span>LangChain</span>
         <span>Ollama</span>
-      </div>
-    </div>
-
-    <div className="skill-card">
-      <h3>📊 Data Analysis</h3>
-      <div className="tech-stack">
-        <span>Data Cleaning</span>
-        <span>Exploratory Data Analysis</span>
-        <span>Data Visualization</span>
-        <span>Model Performance Metrics</span>
       </div>
     </div>
 
