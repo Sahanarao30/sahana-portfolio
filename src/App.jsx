@@ -304,41 +304,57 @@ function App() {
         <span>LLM</span>
         <span>Sentence Transformers</span>
       </div>
+      <a
+href="https://github.com/Sahanarao30/RAG-Project"
+target="_blank"
+rel="noopener noreferrer"
+>
+<button>View Project →</button>
+</a>
+
     </div>
 
-    {/* Project 3 */}
-    <div className="project-card">
+        {/* Project 3 */}
+        <div className="project-card">
       <div className="project-number">03</div>
 
-      <h3>Sales Effectiveness Prediction</h3>
+      <h3>Insurance Cost Prediction</h3>
 
       <p>
-        Developed a machine learning classification system to identify
-        high-potential and low-potential leads, helping prioritize
-        promising leads for sales follow-up.
+        Developed a machine learning regression model to estimate
+        medical insurance costs based on individual and lifestyle
+        characteristics.
       </p>
 
       <p>
         The project involved data preprocessing, exploratory data
-        analysis, feature engineering, categorical encoding, and
-        evaluation of multiple classification algorithms.
+        analysis, feature preparation, model training, and evaluation
+        of regression algorithms.
       </p>
 
       <p>
-        Logistic Regression, Decision Tree, Random Forest, and SVM
-        models were compared to identify an effective classification
-        approach.
+        The best-performing model achieved an R² score of 0.8812,
+        demonstrating its ability to explain a substantial proportion
+        of the variation in insurance costs.
       </p>
 
       <div className="tech-stack">
         <span>Python</span>
         <span>Pandas</span>
+        <span>NumPy</span>
         <span>Scikit-learn</span>
-        <span>Logistic Regression</span>
-        <span>Random Forest</span>
-        <span>SVM</span>
-      </div>
-    </div>
+        <span>Regression</span>
+        <span>Machine Learning</span>
+        </div>
+
+<a
+  href="https://github.com/Sahanarao30/Insurance-Cost-Prediction"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>View Project →</button>
+</a>
+</div>
 
   {/* Project 4 */}
     <div className="project-card">
@@ -408,8 +424,35 @@ function App() {
       </div>
     </div>
 
-  </div>
-</section>
+    {/* Project 6 */}
+    <div className="project-card">
+      <div className="project-number">06</div>
+
+      <h3>Flight Fare Prediction</h3>
+
+      <p>
+        Developed a machine learning regression model to estimate
+        flight ticket prices based on factors such as airline,
+        source and destination, journey date, and flight duration.
+      </p>
+
+      <p>
+        The project focuses on data preprocessing, exploratory data
+        analysis, feature engineering, and training regression models
+        to identify patterns that influence airfare.
+      </p>
+
+      <div className="tech-stack">
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Scikit-learn</span>
+        <span>Feature Engineering</span>
+        <span>Regression</span>
+      </div>
+    </div>
+    </div>
+  </section>
           
 {/* Resume Section */}
 <section id="resume">
