@@ -422,6 +422,13 @@ rel="noopener noreferrer"
         <span>SVM</span>
         <span>Classification</span>
       </div>
+      <a
+        href="https://github.com/Sahanarao30/Heart-Disease-Prediction"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button>View Project →</button>
+      </a>
     </div>
 
     {/* Project 6 */}
