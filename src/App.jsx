@@ -388,6 +388,13 @@ rel="noopener noreferrer"
         <span>Classification</span>
         <span>Machine Learning</span>
       </div>
+<a
+  href="https://github.com/Sahanarao30/Cell-Phone-Price-Prediction"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button>View Project →</button>
+</a>
     </div>
 
 
